@@ -30,7 +30,7 @@ console.log(C);
 let ikkixonali_son = 55;
 
 if (ikkixonali_son >= 10 & ikkixonali_son <= 99) {
-  let onlik = Math.floor(ikkixonali_son / 10);
+  let onlik = (ikkixonali_son / 10);
   let birlik = ikkixonali_son % 10; 
   console.log(onlik);
   console.log(birlik);
@@ -44,7 +44,7 @@ if (ikkixonali_son >= 10 & ikkixonali_son <= 99) {
 let number = 66;
 
 if (number >= 10 & number <= 99) {
-  let tens = Math.floor(number / 10);
+  let tens = (number / 10);
   let units = number % 10;
   let sum = tens + units;
 
@@ -62,7 +62,7 @@ if (number >= 10 & number <= 99) {
 let uchxonali = 123;
 
 if (uchxonali >= 100 & uchxonali <= 999) {
-  let hundreds = Math.floor(uchxonali / 100);
+  let hundreds = (uchxonali / 100);
   console.log(hundreds);
 }else {
   console.log();

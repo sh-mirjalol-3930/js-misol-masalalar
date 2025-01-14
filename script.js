@@ -12,21 +12,18 @@ console.log(kg);
 
 
 
-let H = 1000;
-let cm = H / 100;
-console.log(cm);
+let bayt = 1024;
+let kb = bayt / 1024;
+console.log(kb);
 
 
 
-let S = 15000;
-let m2 = S / 10000;
-console.log(m2);    
 
+let A = 1000;
+let B = 100
+let C = A / B 
+console.log(C);
 
-
-let T = 15000;
-let s = T / 10000;
-console.log(s);
 
 
 

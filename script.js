@@ -72,8 +72,42 @@ if (uchxonali >= 100 & uchxonali <= 999) {
 
 
 
+let number11 = 123; 
+let sum = 0;
+if (number11 >= 100 && number11 <= 999) {
+    let yuzlar = (number11 / 100);
+    let onlar = ((number11 % 100) / 10);
+    let birlar = number11 % 10;
+    sum = yuzlar + onlar + birlar;
+    console.log(sum);
+}
 
 
 
 
 
+
+let number12 = 234;
+let reversed = 0;
+if (number12 >= 100 && number12 <= 999) {
+    let yuzlar = Math.floor(number12 / 100);
+    let onlar = Math.floor((number12 % 100) / 10);
+    let birlar = number12 % 10;
+    reversed = birlar * 100 + onlar * 10 + yuzlar;
+    console.log(reversed);
+}
+
+
+
+
+
+
+
+let number13 = 789;
+let yangi = 0;
+if (number13 >= 100 && number13 <= 999) {
+    let yuzlar = Math.floor(number13 / 100);
+    let qolgani = number13 % 100;
+    yangi = qolgani * 10 + yuzlar;
+    console.log(yangi);
+}
